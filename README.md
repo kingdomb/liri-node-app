@@ -72,9 +72,12 @@ Actors in the movie.
   
 You'll use the axios package to retrieve data from the OMDB API. 
 
+![image](https://user-images.githubusercontent.com/47176318/57187926-5332e300-6ec4-11e9-92a0-466e2e4946d7.png)
+
 _*NOTE: If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'*_
 
-![image](https://user-images.githubusercontent.com/47176318/57187926-5332e300-6ec4-11e9-92a0-466e2e4946d7.png)
+![image](https://user-images.githubusercontent.com/47176318/57188220-f4239d00-6ec8-11e9-8377-c9fe6de7b574.png)
+
 
 
 
