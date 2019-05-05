@@ -55,6 +55,8 @@ musicCall()
 
 function movieCall() {
 
+  const omdbCall = function() {
+
   let movieUrl = "http://www.omdbapi.com/?t=" + title + "&apikey=" + movies;
 
   if (action === "movie-this") {
@@ -90,11 +92,12 @@ function movieCall() {
         console.log(error.config);
       });
   }
-  else if (action === "movie-this" && title != "") {
-    movieCall();
+}
+  if (action === "movie-this" && title != "") {
+    omdbCall();
   } else if (action === "movie-this") {
     title = "Mr. Nobody";
-    movieCall();
+    omdbCall();
   };
 }
 
