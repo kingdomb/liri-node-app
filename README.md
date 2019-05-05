@@ -20,26 +20,32 @@ movie-this
 
 This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal:
 
-Name of the venue
+* Name of the venue
 
-Venue location
+* Venue location
 
-Date of the Event (use moment to format this as "MM/DD/YYYY")
+* Date of the Event (use moment to format this as "MM/DD/YYYY")
+
+![image](https://user-images.githubusercontent.com/47176318/57187963-e9670900-6ec4-11e9-9349-d076cdcbb2c6.png)
 
 
 ### node liri.js spotify-this-song *song name here
 
 This will show the following information about the song in your terminal/bash window
 
-Artist(s)
+* Artist(s)
 
-The song's name
+* The song's name
 
-A preview link of the song from Spotify
+* A preview link of the song from Spotify
 
-The album that the song is from
+* The album that the song is from
+
+![image](https://user-images.githubusercontent.com/47176318/57187944-92613400-6ec4-11e9-98ce-4135d5e20378.png)
 
 _*NOTE: If no song is provided then your program will default to "The Sign" by Ace of Base.*_
+
+![image](https://user-images.githubusercontent.com/47176318/57187999-68f4d800-6ec5-11e9-8bc9-aaadefe16cab.png)
 
 
 ### node liri.js movie-this *movie name here
@@ -67,6 +73,9 @@ Actors in the movie.
 You'll use the axios package to retrieve data from the OMDB API. 
 
 _*NOTE: If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'*_
+
+![image](https://user-images.githubusercontent.com/47176318/57187926-5332e300-6ec4-11e9-92a0-466e2e4946d7.png)
+
 
 
 
