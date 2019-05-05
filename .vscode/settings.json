@@ -6,8 +6,10 @@
         "datetime",
         "error",
         "function",
+        "imdb",
         "omdb",
         "secret",
-        "spotify"
+        "spotify",
+        "spotifynpm"
     ]
 }
